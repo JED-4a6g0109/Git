@@ -53,3 +53,6 @@ git pull
 這邊下-f是因為你把head都刪掉了跟github&gitlab不一致會要求下git pull
 
 這是git的安全機制預防工程師誤按所以要加個-f暴力push!
+
+## 指定clone分支
+    git clone -b develop --single-branch ssh or http 
